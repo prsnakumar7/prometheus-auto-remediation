@@ -7,4 +7,4 @@ route:
 receivers:
   - name: "webhook_receiver"
     webhook_configs:
-      - url: "http://127.0.0.1:5001/webhook"   # your webhook script endpoint
+      - url: "http://<webhook_script_endpoint_IP>:5001/webhook"   # your webhook script endpoint
