@@ -1,0 +1,10 @@
+global:
+  resolve_timeout: 5m
+
+route:
+  receiver: "webhook_receiver"
+
+receivers:
+  - name: "webhook_receiver"
+    webhook_configs:
+      - url: "http://127.0.0.1:5001/webhook"   # your webhook script endpoint
