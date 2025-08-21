@@ -16,10 +16,10 @@ cd flask_app
 cp .env.example .env
 python -m venv venv && . venv/bin/activate
 pip install -r requirements.txt
-python app.py
+python remediate_high_cpu.py
 ```
 
 Run Prometheus/Alertmanager with the configs in `prometheus/` and `alertmanager/`.
 
 ## Diagram
-See `diagrams/architecture.png`.
+See `diagrams/Architecture.png`.
